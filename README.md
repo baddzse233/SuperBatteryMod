@@ -1,7 +1,7 @@
 # SuperBatteryMod
 
-#English
-Thank you for use this mod
+English
+* Thank you for use this mod
 
 How to download
 * Why don't you watch "release"?
@@ -17,8 +17,8 @@ License: CC-BY-NC-SA 4.0
 
 Upload your Localization : amdyes_qwq@outlook.com OR langbaobao1015@163.com
 
-#简体中文
-感谢你使用此mod
+简体中文
+* 感谢你使用此mod
 
 如何下载
 * 你为什么不看“Release”？
