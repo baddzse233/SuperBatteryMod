@@ -1,6 +1,10 @@
 # SuperBatteryMod
 Thank you for use this mod
 
+How to download
+Why don't you watch "release"?
+Or https://spacedock.info/mod/2368
+
 How to use
 * Step1:Put "SuperBattery" in your "GameData"
 * Step2:Launch your Steam
