@@ -1,0 +1,46 @@
+//SuperBattery release 1.0
+//S-400 Battery
+PART
+{   
+    // --- genral parameters ---
+	name = S-400 Battery
+	module = Part
+	author = AMDYes_QwQ
+	
+	// --- asset parameters ---
+	mesh = S-400.mu
+	rescaleFactor = 1
+	
+	// --- node definitions ---
+	node_attach = 0.0, 0.0, 0.0, 0.0, 0.0, -1.0
+	
+	//--- editor parameters ---
+	TechRequired = advElectrics
+	entryCost = 3200
+	cost = 550
+	category = Electrical
+	subcategory = 0
+	title = #Loc_S-400_tit
+	manufacturer = #Loc_S-400_manu
+	description = #Loc_S-400_des
+	//attchment rules:stack,srfAttach,allowStack,allowSrfAttach,allowCollision
+	attachRules = 0,1,0,0,0
+	
+	// --- standard part parameters ---
+	mass = 0.02
+	dragModelType = default
+	maximum_drag = 0.2
+	minimum_drag = 0.2
+	angularDrag = 1
+	crashTolerance = 8
+	maxTemp = 1200 // = 3200
+	PhysicsSignificance = 1
+	bulkheadProfiles = srf
+	tags = bank capacitor cell charge e/c elect pack power volt watt
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 40000000
+		maxAmount = 40000000
+	}
+}
