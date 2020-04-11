@@ -1,0 +1,46 @@
+//SuperBattery release 1.0
+//S-4k Battery
+PART
+{   
+    // --- genral parameters ---
+	name = S-4k Battery
+	module = Part
+	author = AMDYes_QwQ
+	
+	// --- asset parameters ---
+	mesh = SuperBattery\parts\s-4k\S-4k.mu
+	rescaleFactor = 1.0
+	
+	// --- node definitions ---
+	node_stack_top = 0.0, 0.1875, 0.0, 0.0, 1.0, 0.0, 2
+	node_stack_bottom = 0.0, -0.1875, 0.0, 0.0, -1.0, 0.0, 2
+	
+	// --- editor parameters ---
+	TechRequired = specializedElectrics
+	entryCost = 12200
+	cost = 4500000
+	category = Electrical
+	subcategory = 0
+	title = #Loc_S-4k_tit
+	manufacturer = #Loc_S-4k_manu
+	description = #Loc_S-4k_des
+	//attchment rules:stack,srfAttach,allowStack,allowSrfAttach,allowCollision
+	attachRules = 1,0,1,1,0
+	
+	// --- standard part parameters ---
+	mass = 0.2
+	dragModelType = default
+	maximum_drag = 0.2
+	minimum_drag = 0.2
+	angularDrag = 1
+	crashTolerance = 8
+	maxTemp = 2000 // = 3200
+	bulkheadProfiles = size2s
+	tags = apacitor cell charge e/c elect pack power volt watt
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 40000000000
+		maxAmount = 40000000000
+	}
+}
