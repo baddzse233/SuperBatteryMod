@@ -1,0 +1,49 @@
+//SuperBattery release 1.2
+//S-10k Battery
+PART
+{
+    // --- genral parameters ---
+	name = S-10k Battery
+	module = Part
+	author = AMDYes_QwQ
+	
+	// --- asset parameters ---
+	MODEL
+	{
+	    model = SuperBattery/parts/s-10k/s-10k
+	}
+	rescaleFactor = 1.0
+	
+	// --- node definitions ---
+	node_stack_top = 0.0, 0.5, 0.0, 0.0, 1.0, 0.0, 2
+	node_stack_bottom = 0.0, -0.5, 0.0, 0.0, -1.0, 0.0, 2
+	
+	// --- editor parameters ---
+	TechRequired = SuperBattery
+	entryCost = 122000
+	cost = 45000000
+	category = Electrical
+	subcategory = 0
+	title = #Loc_S-10k_tit
+	manufacturer = #Loc_S-10k_manu
+	description = #Loc_S-10k_des
+	//attchment rules:stack,srfAttach,allowStack,allowSrfAttach,allowCollision
+	attachRules = 1,0,1,1,0
+	
+	// --- standard part parameters ---
+	mass = 0.2
+	dragModelType = default
+	maximum_drag = 0.2
+	minimum_drag = 0.2
+	angularDrag = 1
+	crashTolerance = 8
+	maxTemp = 2000 // = 3200
+	bulkheadProfiles = size2s
+	tags = apacitor cell charge e/c elect pack power volt watt
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100000000000
+		maxAmount = 100000000000
+	}
+}
