@@ -22,7 +22,7 @@ Upload your Localization : amdyes_qwq@outlook.com OR langbaobao1015@163.com
 
 如何下载
 * 你为什么不看“Release”？
-* 或者https://spacedock.info/md/2368
+* 或者https://spacedock.info/mod/2368
 
 怎么使用
 * 1、把“SuperBattery”文件扔进你的“GameData”
