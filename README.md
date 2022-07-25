@@ -1,5 +1,7 @@
 # SuperBatteryMod
 
+这·是·我·的·黑·历·史！！！！  -2022/07/25
+
 English
 * Thank you for use this mod
 
